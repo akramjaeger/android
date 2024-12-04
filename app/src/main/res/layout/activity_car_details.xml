@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCarName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car Name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCarType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car Type"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/txtCarPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price per Day"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnEditCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Edit Car" />
+
+        <Button
+            android:id="@+id/btnDeleteCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Delete Car"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+</ScrollView>

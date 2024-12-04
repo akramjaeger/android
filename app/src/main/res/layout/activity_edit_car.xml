@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Car Name Field -->
+    <EditText
+        android:id="@+id/edtCarName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Name"
+        android:textSize="18sp" />
+
+    <!-- Car Type Field -->
+    <EditText
+        android:id="@+id/edtCarType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Type"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Car Price Field -->
+    <EditText
+        android:id="@+id/edtCarPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price per Day"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
